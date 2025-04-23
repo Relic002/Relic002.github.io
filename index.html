@@ -3,57 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>John Doe - Portfolio</title>
+  <title>Kevin Relich - Portfolio</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
       padding: 2rem;
-      line-height: 1.6;
-      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
     }
-    h1, h2 {
-      color: #222;
+
+    .container {
+      max-width: 800px;
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #34495e;
+      border-bottom: 2px solid #e1e4e8;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
     a {
       color: #0077cc;
       text-decoration: none;
+      font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     section {
-      margin-bottom: 2rem;
+      margin-top: 1.5rem;
     }
   </style>
 </head>
 <body>
-  <h1>Kevin</h1>
-  <p>Welcome to my portfolio website!</p>
+  <div class="container">
+    <h1>Kevin</h1>
+    <p>Welcome to my portfolio website!</p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-     I am an undergraduate student in my third year at the University of Wisconsin-Parkside pursuing a Bachelor's Degree in Computer Science.
-    </p>
-  </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate student in my third year at the University of Wisconsin-Parkside pursuing a Bachelor's Degree in Computer Science.
+      </p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java, Python, C++</li>
-      <li>Haskell, Prolog, SQL</li>
-      <li>AWS, Azuer, GCP</li>
-      
-    </ul>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java, Python, C++</li>
+        <li>Haskell, Prolog, SQL</li>
+        <li>AWS, Azuer, GCP</li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:krelich28@gmail.com">krelich28@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/kevin-relich-19040a272/" target="_blank">linkedin.com/in/kevinrelich</a></p>
-    <p>GitHub: <a href="https://github.com/Relic002" target="_blank">github.com/Relic002</a></p>
-  </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:krelich28@gmail.com">krelich28@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/kevin-relich-19040a272/" target="_blank">linkedin.com/in/kevinrelich</a></p>
+      <p>GitHub: <a href="https://github.com/Relic002" target="_blank">github.com/Relic002</a></p>
+    </section>
+  </div>
 </body>
 </html>
